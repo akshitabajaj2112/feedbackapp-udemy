@@ -46,8 +46,8 @@ useEffect(() => {
 
         if(feedbackEdit.edit === true ){
             updateFeedback (feedbackEdit.item.id , newFeedback)
-        }else{
             setBtnDisabled(true)
+        }else{
             addFeedback(newFeedback)
         }
         
